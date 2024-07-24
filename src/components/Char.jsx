@@ -6,7 +6,6 @@ const Char = (props) => {
   const [open, setOpen] = React.useState(false);
   const cardClassName = "Card" + (open ? " Card--open" : "");
   const [play] = useSound(fxSound);
-  console.log(play);
 
   return (
     <div className="Char">
